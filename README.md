@@ -2,7 +2,7 @@
 
 <br/>
 
-![Architecture](images/architecture.jpg)
+
 
 ## Table of Contents
 
@@ -14,7 +14,6 @@
 - [Jenkins Configuration](#jenkins-configuration)
 - [Pipeline Stages](#pipeline-stages)
 - [Verification](#verification)
-- [License](#license)
 
 ## Prerequisites
 
@@ -58,7 +57,7 @@ To automate the deployment process, you'll need a custom Jenkins image that incl
 
 Here is a demonstration of how the Docker daemon works
 
-![Architecture](images/docker-architecture.png)
+
 
 You can create this image using the following Dockerfile:
   ```bash
@@ -181,20 +180,14 @@ Here's how you can do it:
 
 The output will be like this:
 
-![architecture](images/node-and-service.png)
+
 
 
 Copy the ip address and paste it into your browser to access the deployed containerized application
 
-![application-page](images/application-page.png)
 
 
-### License
 
----
 
-The code and documentation in this repository are provided under the following license:
 
-[MIT License](https://opensource.org/licenses/MIT)
 
-© 2023 Zebbara Abdessamad
